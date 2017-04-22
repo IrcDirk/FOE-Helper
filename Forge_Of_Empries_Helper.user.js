@@ -2,10 +2,10 @@
 // @name        Forge Of Empries Helper
 // @namespace   foe - helper
 // @include     https://*.forgeofempires.com/game/index*
-// @require     https://code.jquery.com/jquery-1.12.0.min.js
-// @require     https://raw.githubusercontent.com/sytelus/CryptoJS/master/components/md5.js
+// @require     https://raw.githubusercontent.com/IrcDirk/FOE-Helper/master/jquery-1.12.0.min.js
+// @require     https://raw.githubusercontent.com/IrcDirk/FOE-Helper/master/md5.js
 // @grant       none
-// @version     1
+// @version     2
 // ==/UserScript==
  
 //Avoid conflicts
