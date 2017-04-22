@@ -342,14 +342,14 @@ var scripts = function() { /*!
           var ic = document.getElementById("imageContent");
           var size = getViewportSize();
           // Detect if InternetExplorer is used, because we need a workaround. IE9 do not use the 100% initially in a correct way
-          if (!isInternetExplorer) {
+          //if (!isInternetExplorer) {
             el.style.width = ic.style.width = size[0] < 950 ? "950px" : "100%";
             el.style.height = ic.style.height = size[1] < 550 ? "550px" : "100%";
-          } else {
+          //} else {
             el.style.width = ic.style.width = size[0] < 950 ? "950px" : size[0] + "px";
             el.style.height = ic.style.height = size[1] < 550 ? "550px" : size[1] + "px";
-          }
-                  el.style.height = size[1] - 25 + "px";
+          //}
+          el.style.height = size[1] - 25 + "px";
         };
        }
        
@@ -460,7 +460,7 @@ var FOE_html = function() { /*!
     
     $('body').prepend(FOE_html);
     
-    $('#container').wrap('<div style="height: 50%;"></div>');
+    $('#container').wrap('<div style=""></div>');
     
     /*
     *   ==== MAIN REFRESH ===
